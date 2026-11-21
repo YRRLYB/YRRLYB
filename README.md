@@ -1,148 +1,75 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
-    <img alt="YRRLYB Hero Banner" src="./assets/hero-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
+    <img alt="YRRLYB" src="./assets/header-dark.svg" width="100%" />
   </picture>
 </p>
 
 <p align="center">
-  <a href="https://github.com/YRRLYB/Aria">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2800&pause=1100&color=A78BFA&center=true&vCenter=true&width=640&lines=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AF+YRRLYB+%E2%99%AA;%E6%AD%A3%E5%9C%A8%E6%8A%98%E8%85%BE+Aria+%E5%A4%9A%E6%BA%90%E9%AB%98%E9%9F%B3%E8%B4%A8%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8;TypeScript+%2F+Electron+%2F+React+%2F+Node+%2F+Python;%E5%9D%90%E6%A0%87%EF%BC%9A%E4%BD%A0%E7%8C%9C%E6%88%91%E5%9C%A8%E5%93%AA+%C2%B7+%E9%9A%8F%E7%BC%98%E5%86%99%E7%82%B9%E9%A1%BA%E7%9C%BC%E7%9A%84%E5%B0%8F%E7%8E%A9%E6%84%8F" alt="Typing SVG" />
-  </a>
+  <samp>
+    <a href="https://github.com/YRRLYB/Aria">aria</a> ·
+    <a href="https://github.com/YRRLYB/Aria-Mobile">aria-mobile</a> ·
+    <a href="https://photo.yrrlyb.top/api.html">伊利布图库</a> ·
+    <a href="https://github.com/YRRLYB/Folio">folio</a> ·
+    <a href="https://github.com/YRRLYB/Nexus">nexus</a> ·
+    <a href="https://github.com/YRRLYB/nonebot-plugin-yrr-fortune">fortune</a>
+  </samp>
 </p>
 
 <p align="center">
-  <a href="https://github.com/YRRLYB?tab=followers">
-    <img src="https://img.shields.io/github/followers/YRRLYB?label=Followers&style=for-the-badge&color=8B5CF6&labelColor=0F1122&logo=github" alt="Followers" />
-  </a>
-  <a href="https://github.com/YRRLYB/Aria">
-    <img src="https://img.shields.io/github/stars/YRRLYB/Aria?label=Aria%20Stars&style=for-the-badge&color=38BDF8&labelColor=0F1122&logo=starship" alt="Aria Stars" />
-  </a>
-  <a href="https://github.com/YRRLYB/Aria/releases/latest">
-    <img src="https://img.shields.io/github/v/release/YRRLYB/Aria?label=Latest%20Aria&style=for-the-badge&color=EC4899&labelColor=0F1122&logo=itunes" alt="Aria Latest Release" />
-  </a>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/card-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/card-light.svg" />
-    <img alt="YRRLYB Terminal &amp; Vinyl Card" src="./assets/card-dark.svg" width="100%" />
-  </picture>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=15&height=32&duration=2800&pause=1100&color=8B5CF6&center=true&vCenter=true&width=560&lines=%E5%81%9A%E7%88%B1%E5%81%9A%E7%9A%84%EF%BC%8C%E5%B9%B2%E6%83%B3%E5%B9%B2%E7%9A%84%EF%BC%8C%E8%BF%99%E5%B0%B1%E6%98%AF%E6%88%91;%E6%9E%81%E7%AE%80%E7%9A%84%E5%85%83%E7%B4%A0%E4%B8%AD%EF%BC%8C%E8%9E%8D%E5%85%A5%E4%B8%8D%E5%90%8C%E7%9A%84%E5%88%9B%E6%84%8F;Music+%C2%B7+Code+%C2%B7+ACG+%C2%B7+%E6%8B%86%E9%82%A3" alt="Typing Subtitle" />
 </p>
 
 ---
 
 ### 🎧 关于我 / About Me
 
-平时喜欢把不好用的软件自己重写一遍，尤其执着于**界面干净**、**交互顺手**和**声音好听**。  
-主力时间在写桌面端与全栈 TypeScript，也会顺手捣鼓移动端配套、博客工作台、二次元图床 API 和聊天机器人插件。
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/meow-dark.png" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/meow-light.png" />
+  <img align="right" width="172" alt="YRRLYB" src="./assets/meow-dark.png" />
+</picture>
 
-- 💿 最近几乎全天都在打磨 **[Aria](https://github.com/YRRLYB/Aria)** —— 把本地无损、网易云、QQ 音乐、B站和 YouTube 塞进同一张桌面。
-- 📱 顺带给它配了安卓端 **[Aria-Mobile](https://github.com/YRRLYB/Aria-Mobile)**，出门也能接着同一条队列往下听。
-- ✨ 偏爱黑白灰搭配克制的紫色荧光，加一点不吵闹的实时频谱和动效。
-- 🧭 坐标：**你猜我在哪** · 遇到有意思的坑欢迎来仓库聊几句。
+> **做爱做的，干想干的，这就是我。**  
+> 致力于让自己的兴趣爱好，也能贡献于同样喜欢的人们。
 
----
+- 🎵 看不惯各个音乐平台臃肿的软件和差强人意的设计，所以创作了 **[Aria](https://github.com/YRRLYB/Aria)**（以及配套移动端 **[Aria-Mobile](https://github.com/YRRLYB/Aria-Mobile)**）。
+- 🌸 二次元对我来讲是人生中不可磨灭的一部分，喜欢收集各种二次元美少女的图片，汇集成了 **18,000+** 张图的公益图库 **[伊利布 API](https://github.com/YRRLYB/YRRLYB-API)**（[photo.yrrlyb.top](https://photo.yrrlyb.top/api.html)），我也乐在其中。
+- ✦ 偏爱**极简的元素中融入不同的创意**，你可以在我的每个项目里找到这份理念。
+- 📍 坐标：**拆那**
 
-### 🛠️ 常用工具箱 / Tech Stack
-
-<p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-149ECA?style=for-the-badge&logo=react&logoColor=white" alt="React" />
-  <img src="https://img.shields.io/badge/Electron-2B2E3B?style=for-the-badge&logo=electron&logoColor=9FEAF9" alt="Electron" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <br />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
-  <img src="https://img.shields.io/badge/Express-18181B?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</p>
+<br clear="right" />
 
 ---
 
-### ✨ 在做的项目 / Featured Work
+### ✦ 项目 / Projects
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/YRRLYB/Aria"><strong>🎵 Aria</strong></a>
-      &nbsp;<img src="https://img.shields.io/github/stars/YRRLYB/Aria?style=flat-square&color=8B5CF6&labelColor=181826" alt="Aria stars" /><br />
-      <sub>本地无损 · 网易云 · QQ 音乐 · B站 · YouTube 多源桌面音乐播放器，带 WASAPI 直通、十段 Hi-Fi 均衡器与 60fps 实时频谱。</sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/YRRLYB/Aria-Mobile"><strong>📱 Aria-Mobile</strong></a>
-      &nbsp;<img src="https://img.shields.io/github/stars/YRRLYB/Aria-Mobile?style=flat-square&color=38BDF8&labelColor=181826" alt="Aria-Mobile stars" /><br />
-      <sub>Aria 的安卓伴侣客户端，支持局域网联动与桌面曲库串流。</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/YRRLYB/YRRLYB-API"><strong>🖼️ YRRLYB-API</strong></a>
-      &nbsp;<img src="https://img.shields.io/github/stars/YRRLYB/YRRLYB-API?style=flat-square&color=EC4899&labelColor=181826" alt="YRRLYB-API stars" /><br />
-      <sub>一个公益性质的二次元图片接口服务，简洁直出。</sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/YRRLYB/Folio"><strong>📝 Folio</strong></a>
-      &nbsp;<img src="https://img.shields.io/github/stars/YRRLYB/Folio?style=flat-square&color=A78BFA&labelColor=181826" alt="Folio stars" /><br />
-      <sub>内置 Studio 工作台、可自定义排版的博客与个人作品集。</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/YRRLYB/Nexus"><strong>🔗 Nexus</strong></a>
-      &nbsp;<img src="https://img.shields.io/github/stars/YRRLYB/Nexus?style=flat-square&color=6366F1&labelColor=181826" alt="Nexus stars" /><br />
-      <sub>面向个人多设备互连与遥控的轻量集成平台。</sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/YRRLYB/nonebot-plugin-yrr-fortune"><strong>🎴 nonebot-plugin-yrr-fortune</strong></a>
-      &nbsp;<img src="https://img.shields.io/github/stars/YRRLYB/nonebot-plugin-yrr-fortune?style=flat-square&color=F472B6&labelColor=181826" alt="Fortune plugin stars" /><br />
-      <sub>NoneBot 每日运势卡片插件：七档运势、六维雷达、宜忌与六套模板。</sub>
-    </td>
-  </tr>
-</table>
-
-> 还有一个简单轻量的答题框架 **[Q-gate](https://github.com/YRRLYB/Q-gate)**，顺手写来折腾前端交互用。
+| 项目 | 简介 | 方向 |
+| :--- | :--- | :--- |
+| **[Aria](https://github.com/YRRLYB/Aria)** | 本地无损 · 网易云 · QQ 音乐 · B站 · YouTube 多源桌面播放器，WASAPI 直通 + 十段 Hi-Fi 均衡器 | Desktop Audio |
+| **[Aria-Mobile](https://github.com/YRRLYB/Aria-Mobile)** | Aria 配套安卓客户端，支持局域网连接与桌面曲库串流 | Mobile |
+| **[YRRLYB-API](https://github.com/YRRLYB/YRRLYB-API)** | 公益二次元美少女图片接口，收录 18,000+ 精选壁纸 | ACG API |
+| **[Folio](https://github.com/YRRLYB/Folio)** | 内置 Studio 工作台、可自由编排外观的博客与作品集 | Blog & Portfolio |
+| **[Nexus](https://github.com/YRRLYB/Nexus)** | 面向个人的多设备连接集成平台 | Tooling |
+| **[nonebot-plugin-yrr-fortune](https://github.com/YRRLYB/nonebot-plugin-yrr-fortune)** | NoneBot 每日运势卡片插件，含六维雷达与六套模板 | Bot Plugin |
+| **[Q-gate](https://github.com/YRRLYB/Q-gate)** | 一个简单轻量的答题框架 | Web |
 
 ---
 
-### 📊 数据与提交节拍 / Stats & Pulse
+### ⌨️ 技术栈 / Stack
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=YRRLYB&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight&title_color=a78bfa&icon_color=38bdf8&bg_color=0d101b" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=YRRLYB&show_icons=true&hide_border=true&rank_icon=github&theme=default&title_color=6d28d9&icon_color=0ea5e9&bg_color=faf9ff" />
-    <img height="168" alt="YRRLYB GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=YRRLYB&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight&title_color=a78bfa&icon_color=38bdf8&bg_color=0d101b" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=YRRLYB&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&title_color=a78bfa&bg_color=0d101b" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=YRRLYB&layout=compact&langs_count=8&hide_border=true&theme=default&title_color=6d28d9&bg_color=faf9ff" />
-    <img height="168" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YRRLYB&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&title_color=a78bfa&bg_color=0d101b" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=YRRLYB&hide_border=true&theme=tokyonight&ring=a78bfa&fire=38bdf8&currStreakLabel=a78bfa&background=0d101b" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=YRRLYB&hide_border=true&theme=default&ring=7c3aed&fire=0ea5e9&currStreakLabel=6d28d9&background=faf9ff" />
-    <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=YRRLYB&hide_border=true&theme=tokyonight&ring=a78bfa&fire=38bdf8&currStreakLabel=a78bfa&background=0d101b" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=YRRLYB&theme=tokyo-night&bg_color=0d101b&color=c4b5fd&line=8b5cf6&point=38bdf8&area=true&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=YRRLYB&theme=minimal&bg_color=faf9ff&color=4c1d95&line=7c3aed&point=0ea5e9&area=true&hide_border=true" />
-    <img width="100%" alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=YRRLYB&theme=tokyo-night&bg_color=0d101b&color=c4b5fd&line=8b5cf6&point=38bdf8&area=true&hide_border=true" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,react,electron,nodejs,vite,tailwind,nextjs,py,kotlin,git&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,react,electron,nodejs,vite,tailwind,nextjs,py,kotlin,git&theme=light" />
+    <img height="38" alt="Tech Stack" src="https://skillicons.dev/icons?i=ts,react,electron,nodejs,vite,tailwind,nextjs,py,kotlin,git&theme=dark" />
   </picture>
 </p>
 
 ---
 
-### 🐍 贡献贪吃蛇 / Contribution Snake
+### 🐍 贡献轨迹 / Activity
 
 <p align="center">
   <picture>
@@ -156,6 +83,6 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg" />
-    <img alt="Footer Wave" src="./assets/footer-dark.svg" width="100%" />
+    <img alt="Footer" src="./assets/footer-dark.svg" width="100%" />
   </picture>
 </p>

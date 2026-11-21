@@ -1,36 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="44" viewBox="0 0 1000 44" fill="none">
   <defs>
-    <linearGradient id="wave1-l" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.22"/>
-      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.20"/>
-      <stop offset="100%" stop-color="#EC4899" stop-opacity="0.22"/>
+    <linearGradient id="rule-left-l" x1="140" y1="0" x2="476" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#656D76" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#656D76" stop-opacity="0.35"/>
     </linearGradient>
-    <linearGradient id="wave2-l" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.16"/>
-      <stop offset="50%" stop-color="#A78BFA" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0.16"/>
+    <linearGradient id="rule-right-l" x1="524" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#656D76" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#656D76" stop-opacity="0"/>
     </linearGradient>
-    <clipPath id="footer-clip-l">
-      <rect width="1200" height="120" rx="16"/>
-    </clipPath>
   </defs>
-
   <style>
-    .glide1 { animation: waveSlide 12s linear infinite; }
-    .glide2 { animation: waveSlide 18s linear infinite reverse; }
-    @keyframes waveSlide {
-      from { transform: translateX(0px); }
-      to { transform: translateX(-1200px); }
+    .note { animation: notePulse 3.6s ease-in-out infinite; }
+    @keyframes notePulse {
+      0%, 100% { opacity: 0.45; }
+      50% { opacity: 1; }
     }
   </style>
-
-  <g clip-path="url(#footer-clip-l)">
-    <g class="glide2">
-      <path d="M0 70 Q300 30 600 70 T1200 70 T1800 70 T2400 70 L2400 120 L0 120 Z" fill="url(#wave2-l)"/>
-    </g>
-    <g class="glide1">
-      <path d="M0 80 Q300 112 600 80 T1200 80 T1800 80 T2400 80 L2400 120 L0 120 Z" fill="url(#wave1-l)"/>
-    </g>
-    <text x="600" y="54" text-anchor="middle" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="500" letter-spacing="1">Thanks for stopping by · 祝你今天也能听到喜欢的歌 ♪</text>
-  </g>
+  <line x1="140" y1="22" x2="476" y2="22" stroke="url(#rule-left-l)" stroke-width="1"/>
+  <text class="note" x="500" y="27" text-anchor="middle" fill="#7C3AED" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15">♪</text>
+  <line x1="524" y1="22" x2="860" y2="22" stroke="url(#rule-right-l)" stroke-width="1"/>
 </svg>

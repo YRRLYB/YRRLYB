@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" fill="none">
+  <defs>
+    <linearGradient id="wave-stroke-l" x1="270" y1="0" x2="730" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#7C3AED" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.9"/>
+      <stop offset="82%" stop-color="#0284C7" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fade-mask-grad-l" x1="270" y1="0" x2="730" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="18%" stop-color="#FFFFFF"/>
+      <stop offset="82%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <mask id="wave-mask-l">
+      <rect x="270" y="72" width="460" height="48" fill="url(#fade-mask-grad-l)"/>
+    </mask>
+  </defs>
+
+  <style>
+    .star-pulse { transform-box: fill-box; transform-origin: center; animation: starBreath 4.2s ease-in-out infinite; }
+    .wave-flow-1 { animation: shiftWave 5.6s linear infinite; }
+    .wave-flow-2 { animation: shiftWave 8.4s linear infinite reverse; }
+
+    @keyframes starBreath {
+      0%, 100% { opacity: 0.45; transform: scale(0.88); }
+      50% { opacity: 1; transform: scale(1.12); }
+    }
+    @keyframes shiftWave {
+      from { transform: translateX(0px); }
+      to { transform: translateX(-120px); }
+    }
+  </style>
+
+  <text x="500" y="64" text-anchor="middle" fill="#1F2328" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="46" font-weight="300" letter-spacing="18">YRRLYB</text>
+
+  <g class="star-pulse" transform="translate(658, 26)">
+    <path d="M8 0 L9.8 6.2 L16 8 L9.8 9.8 L8 16 L6.2 9.8 L0 8 L6.2 6.2 Z" fill="#7C3AED"/>
+  </g>
+
+  <g mask="url(#wave-mask-l)">
+    <g class="wave-flow-2" opacity="0.32">
+      <path d="M 150 96 Q 180 86, 210 96 T 270 96 T 330 96 T 390 96 T 450 96 T 510 96 T 570 96 T 630 96 T 690 96 T 750 96 T 810 96 T 870 96" stroke="#7C3AED" stroke-width="0.9" fill="none"/>
+    </g>
+    <g class="wave-flow-1">
+      <path d="M 150 96 Q 180 82, 210 96 T 270 96 T 330 96 T 390 96 T 450 96 T 510 96 T 570 96 T 630 96 T 690 96 T 750 96 T 810 96 T 870 96" stroke="url(#wave-stroke-l)" stroke-width="1.35" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <text x="500" y="134" text-anchor="middle" fill="#656D76" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="500" letter-spacing="4">MINIMALISM  ·  MUSIC  ·  ACG</text>
+</svg>
