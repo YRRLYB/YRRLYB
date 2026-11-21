@@ -35,6 +35,47 @@
 <a href="https://github.com/YRRLYB/Nexus"><img src="assets/icon-nexus.svg" width="20" align="absmiddle" alt="" /></a> &nbsp;**[Nexus](https://github.com/YRRLYB/Nexus)** · 适用于个人的机器连接集成平台 &nbsp;<sub>[GitHub](https://github.com/YRRLYB/Nexus)</sub><br />
 <a href="https://github.com/YRRLYB/Q-gate"><img src="assets/icon-qgate.svg" width="20" align="absmiddle" alt="" /></a> &nbsp;**[Q-gate](https://github.com/YRRLYB/Q-gate)** · 简单轻量的答题框架 &nbsp;<sub>[GitHub](https://github.com/YRRLYB/Q-gate)</sub>
 
+## 语言与技术 <sub>Stack</sub>
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TypeScript-181816?style=flat-square&logo=typescript&logoColor=3178C6" />
+    <img src="https://img.shields.io/badge/TypeScript-efede7?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/JavaScript-181816?style=flat-square&logo=javascript&logoColor=F7DF1E" />
+    <img src="https://img.shields.io/badge/JavaScript-efede7?style=flat-square&logo=javascript&logoColor=C88A00" alt="JavaScript" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Python-181816?style=flat-square&logo=python&logoColor=3776AB" />
+    <img src="https://img.shields.io/badge/Python-efede7?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Kotlin-181816?style=flat-square&logo=kotlin&logoColor=A78BFA" />
+    <img src="https://img.shields.io/badge/Kotlin-efede7?style=flat-square&logo=kotlin&logoColor=7C3AED" alt="Kotlin" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/CSS-181816?style=flat-square&logo=css&logoColor=A78BFA" />
+    <img src="https://img.shields.io/badge/CSS-efede7?style=flat-square&logo=css&logoColor=663399" alt="CSS" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/React-181816?style=flat-square&logo=react&logoColor=61DAFB" />
+    <img src="https://img.shields.io/badge/React-efede7?style=flat-square&logo=react&logoColor=0284C7" alt="React" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Electron-181816?style=flat-square&logo=electron&logoColor=9FEAF9" />
+    <img src="https://img.shields.io/badge/Electron-efede7?style=flat-square&logo=electron&logoColor=2B7A9B" alt="Electron" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Node.js-181816?style=flat-square&logo=nodedotjs&logoColor=5FA04E" />
+    <img src="https://img.shields.io/badge/Node.js-efede7?style=flat-square&logo=nodedotjs&logoColor=3C873A" alt="Node.js" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Next.js-181816?style=flat-square&logo=nextdotjs&logoColor=f2f0ea" />
+    <img src="https://img.shields.io/badge/Next.js-efede7?style=flat-square&logo=nextdotjs&logoColor=181715" alt="Next.js" />
+  </picture>
+</p>
+
 ## 数据 <sub>Stats</sub>
 
 <picture>
