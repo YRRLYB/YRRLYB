@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" fill="none">
+  <defs>
+    <linearGradient id="bg-light" x1="0" y1="0" x2="1200" y2="310" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FAF9FF"/>
+      <stop offset="50%" stop-color="#F2EEFF"/>
+      <stop offset="100%" stop-color="#EEF6FF"/>
+    </linearGradient>
+    <radialGradient id="orb-purple-l" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb-cyan-l" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb-pink-l" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F472B6" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#F472B6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title-grad-l" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="45%" stop-color="#6D28D9"/>
+      <stop offset="80%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#DB2777"/>
+    </linearGradient>
+    <linearGradient id="eq-grad-l" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.75"/>
+      <stop offset="55%" stop-color="#8B5CF6" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0.95"/>
+    </linearGradient>
+    <clipPath id="frame-clip-l">
+      <rect x="1" y="1" width="1198" height="308" rx="22"/>
+    </clipPath>
+    <pattern id="dots-l" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#6366F1" fill-opacity="0.14"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .orb1 { animation: float1 14s ease-in-out infinite; }
+    .orb2 { animation: float2 18s ease-in-out infinite; }
+    .orb3 { animation: float3 12s ease-in-out infinite; }
+    .pulse-dot { animation: pulseDot 2.2s ease-in-out infinite; }
+    .ring-rot { animation: slowSpin 38s linear infinite; }
+    .bar { transform-origin: 0px 0px; animation: eqBounce 1.15s ease-in-out infinite; }
+    .b1  { animation-delay: 0.00s; animation-duration: 1.05s; }
+    .b2  { animation-delay: 0.12s; animation-duration: 1.25s; }
+    .b3  { animation-delay: 0.24s; animation-duration: 0.95s; }
+    .b4  { animation-delay: 0.36s; animation-duration: 1.35s; }
+    .b5  { animation-delay: 0.18s; animation-duration: 1.10s; }
+    .b6  { animation-delay: 0.42s; animation-duration: 0.90s; }
+    .b7  { animation-delay: 0.55s; animation-duration: 1.30s; }
+    .b8  { animation-delay: 0.08s; animation-duration: 1.15s; }
+    .b9  { animation-delay: 0.30s; animation-duration: 1.00s; }
+    .b10 { animation-delay: 0.48s; animation-duration: 1.22s; }
+    .b11 { animation-delay: 0.15s; animation-duration: 0.92s; }
+    .b12 { animation-delay: 0.62s; animation-duration: 1.18s; }
+
+    @keyframes float1 {
+      0%, 100% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(60px, 28px) scale(1.08); }
+    }
+    @keyframes float2 {
+      0%, 100% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(-70px, -24px) scale(1.1); }
+    }
+    @keyframes float3 {
+      0%, 100% { transform: translate(0px, 0px); opacity: 0.75; }
+      50% { transform: translate(35px, -30px); opacity: 1; }
+    }
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.35; }
+    }
+    @keyframes slowSpin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes eqBounce {
+      0%, 100% { transform: scaleY(0.28); }
+      35% { transform: scaleY(1.00); }
+      70% { transform: scaleY(0.48); }
+    }
+  </style>
+
+  <g clip-path="url(#frame-clip-l)">
+    <rect width="1200" height="310" fill="url(#bg-light)"/>
+    <rect width="1200" height="310" fill="url(#dots-l)"/>
+
+    <g class="orb1"><circle cx="240" cy="70" r="240" fill="url(#orb-purple-l)"/></g>
+    <g class="orb2"><circle cx="960" cy="240" r="260" fill="url(#orb-cyan-l)"/></g>
+    <g class="orb3"><circle cx="620" cy="30" r="190" fill="url(#orb-pink-l)"/></g>
+
+    <g transform="translate(600, 155)">
+      <g class="ring-rot">
+        <ellipse cx="0" cy="0" rx="340" ry="96" stroke="#7C3AED" stroke-opacity="0.16" stroke-width="1" stroke-dasharray="6 8"/>
+      </g>
+    </g>
+
+    <g transform="translate(28, 24)">
+      <rect width="176" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.88" stroke="#8B5CF6" stroke-opacity="0.32"/>
+      <circle class="pulse-dot" cx="16" cy="14" r="4" fill="#10B981"/>
+      <text x="28" y="18" fill="#334155" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="600">~/YRRLYB · ONLINE</text>
+    </g>
+    <g transform="translate(966, 24)">
+      <rect width="206" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.88" stroke="#0EA5E9" stroke-opacity="0.28"/>
+      <text x="103" y="18" text-anchor="middle" fill="#475569" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11.5" font-weight="600">AUDIO · FULL-STACK · ACG</text>
+    </g>
+
+    <text x="600" y="138" text-anchor="middle" fill="url(#title-grad-l)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="68" font-weight="900" letter-spacing="10">YRRLYB</text>
+    <text x="600" y="176" text-anchor="middle" fill="#1E293B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="19" font-weight="600" letter-spacing="1.5">折腾音乐、代码与一切顺眼的小玩意 ♪</text>
+
+    <g transform="translate(362, 198)">
+      <rect width="476" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.85" stroke="#8B5CF6" stroke-opacity="0.25"/>
+      <text x="238" y="17" text-anchor="middle" fill="#5B21B6" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="600" letter-spacing="0.8">Hi-Res Audio  ·  Electron &amp; React  ·  TypeScript  ·  Creative Tools</text>
+    </g>
+
+    <g opacity="0.85">
+      <g transform="translate(366, 288)"><rect class="bar b1" x="0" y="-22" width="6" height="22" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(380, 288)"><rect class="bar b4" x="0" y="-34" width="6" height="34" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(394, 288)"><rect class="bar b7" x="0" y="-26" width="6" height="26" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(408, 288)"><rect class="bar b2" x="0" y="-42" width="6" height="42" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(422, 288)"><rect class="bar b9" x="0" y="-30" width="6" height="30" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(436, 288)"><rect class="bar b5" x="0" y="-48" width="6" height="48" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(450, 288)"><rect class="bar b11" x="0" y="-36" width="6" height="36" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(464, 288)"><rect class="bar b3" x="0" y="-52" width="6" height="52" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(478, 288)"><rect class="bar b8" x="0" y="-38" width="6" height="38" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(492, 288)"><rect class="bar b6" x="0" y="-46" width="6" height="46" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(506, 288)"><rect class="bar b12" x="0" y="-30" width="6" height="30" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(520, 288)"><rect class="bar b1" x="0" y="-54" width="6" height="54" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(534, 288)"><rect class="bar b10" x="0" y="-40" width="6" height="40" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(548, 288)"><rect class="bar b4" x="0" y="-50" width="6" height="50" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(562, 288)"><rect class="bar b7" x="0" y="-34" width="6" height="34" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(576, 288)"><rect class="bar b2" x="0" y="-56" width="6" height="56" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(590, 288)"><rect class="bar b8" x="0" y="-44" width="6" height="44" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(604, 288)"><rect class="bar b5" x="0" y="-56" width="6" height="56" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(618, 288)"><rect class="bar b11" x="0" y="-38" width="6" height="38" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(632, 288)"><rect class="bar b3" x="0" y="-48" width="6" height="48" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(646, 288)"><rect class="bar b9" x="0" y="-32" width="6" height="32" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(660, 288)"><rect class="bar b6" x="0" y="-52" width="6" height="52" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(674, 288)"><rect class="bar b12" x="0" y="-36" width="6" height="36" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(688, 288)"><rect class="bar b1" x="0" y="-44" width="6" height="44" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(702, 288)"><rect class="bar b10" x="0" y="-28" width="6" height="28" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(716, 288)"><rect class="bar b4" x="0" y="-46" width="6" height="46" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(730, 288)"><rect class="bar b7" x="0" y="-34" width="6" height="34" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(744, 288)"><rect class="bar b2" x="0" y="-42" width="6" height="42" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(758, 288)"><rect class="bar b8" x="0" y="-26" width="6" height="26" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(772, 288)"><rect class="bar b5" x="0" y="-36" width="6" height="36" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(786, 288)"><rect class="bar b11" x="0" y="-22" width="6" height="22" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(800, 288)"><rect class="bar b3" x="0" y="-30" width="6" height="30" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(814, 288)"><rect class="bar b6" x="0" y="-18" width="6" height="18" rx="3" fill="url(#eq-grad-l)"/></g>
+      <g transform="translate(828, 288)"><rect class="bar b9" x="0" y="-22" width="6" height="22" rx="3" fill="url(#eq-grad-l)"/></g>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="308" rx="22" stroke="#DDD6FE" stroke-width="1.5"/>
+</svg>
