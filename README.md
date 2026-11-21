@@ -10,7 +10,7 @@
   <samp>
     <a href="https://github.com/YRRLYB/Aria">aria</a> ·
     <a href="https://github.com/YRRLYB/Aria-Mobile">aria-mobile</a> ·
-    <a href="https://photo.yrrlyb.top/api.html">伊利布图库</a> ·
+    <a href="https://photo.yrrlyb.top/api.html">图库</a> ·
     <a href="https://github.com/YRRLYB/Folio">folio</a> ·
     <a href="https://github.com/YRRLYB/Nexus">nexus</a> ·
     <a href="https://github.com/YRRLYB/nonebot-plugin-yrr-fortune">fortune</a>
@@ -18,58 +18,54 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=15&height=32&duration=2800&pause=1100&color=8B5CF6&center=true&vCenter=true&width=560&lines=%E5%81%9A%E7%88%B1%E5%81%9A%E7%9A%84%EF%BC%8C%E5%B9%B2%E6%83%B3%E5%B9%B2%E7%9A%84%EF%BC%8C%E8%BF%99%E5%B0%B1%E6%98%AF%E6%88%91;%E6%9E%81%E7%AE%80%E7%9A%84%E5%85%83%E7%B4%A0%E4%B8%AD%EF%BC%8C%E8%9E%8D%E5%85%A5%E4%B8%8D%E5%90%8C%E7%9A%84%E5%88%9B%E6%84%8F;Music+%C2%B7+Code+%C2%B7+ACG+%C2%B7+%E6%8B%86%E9%82%A3" alt="Typing Subtitle" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=14&height=28&duration=2600&pause=1200&color=8B5CF6&center=true&vCenter=true&width=480&lines=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E8%BF%99%E9%87%8C%E6%98%AF+YRRLYB;%E9%9F%B3%E4%B9%90+%C2%B7+%E4%BB%A3%E7%A0%81+%C2%B7+%E4%BA%8C%E6%AC%A1%E5%85%83;%E6%9E%81%E7%AE%80%EF%BC%8C%E4%BD%86%E5%B8%A6%E7%82%B9%E5%88%9B%E6%84%8F" alt="YRRLYB" />
 </p>
 
 ---
 
-### 🎧 关于我 / About Me
+### 关于我
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/meow-dark.png" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/meow-light.png" />
-  <img align="right" width="172" alt="YRRLYB" src="./assets/meow-dark.png" />
+  <img align="right" width="172" alt="meow" src="./assets/meow-dark.png" />
 </picture>
 
-> **做爱做的，干想干的，这就是我。**  
-> 致力于让自己的兴趣爱好，也能贡献于同样喜欢的人们。
+做爱做的，干想干的，这就是我。  
+致力于让自己的兴趣爱好能贡献于同样喜欢的人们。
 
-- 🎵 看不惯各个音乐平台臃肿的软件和差强人意的设计，所以创作了 **[Aria](https://github.com/YRRLYB/Aria)**（以及配套移动端 **[Aria-Mobile](https://github.com/YRRLYB/Aria-Mobile)**）。
-- 🌸 二次元对我来讲是人生中不可磨灭的一部分，喜欢收集各种二次元美少女的图片，汇集成了 **18,000+** 张图的公益图库 **[伊利布 API](https://github.com/YRRLYB/YRRLYB-API)**（[photo.yrrlyb.top](https://photo.yrrlyb.top/api.html)），我也乐在其中。
-- ✦ 偏爱**极简的元素中融入不同的创意**，你可以在我的每个项目里找到这份理念。
-- 📍 坐标：**拆那**
+看不惯各个音乐平台的软件以及差强人意的设计，所以这是我创作 [Aria](https://github.com/YRRLYB/Aria) 的原因。
+
+二次元对我来讲在人生中是不可磨灭的一部分，所以我喜欢收集各种二次元美少女的图片，汇集成[图库](https://photo.yrrlyb.top/api.html)。当然我本人也乐意做这种事情。
+
+美学设计上，我个人更偏爱极简的元素中融入不同的创意，在我的项目里都能找到我的理念。
+
+坐标拆那。
 
 <br clear="right" />
 
 ---
 
-### ✦ 项目 / Projects
+### 项目
 
-| 项目 | 简介 | 方向 |
-| :--- | :--- | :--- |
-| **[Aria](https://github.com/YRRLYB/Aria)** | 本地无损 · 网易云 · QQ 音乐 · B站 · YouTube 多源桌面播放器，WASAPI 直通 + 十段 Hi-Fi 均衡器 | Desktop Audio |
-| **[Aria-Mobile](https://github.com/YRRLYB/Aria-Mobile)** | Aria 配套安卓客户端，支持局域网连接与桌面曲库串流 | Mobile |
-| **[YRRLYB-API](https://github.com/YRRLYB/YRRLYB-API)** | 公益二次元美少女图片接口，收录 18,000+ 精选壁纸 | ACG API |
-| **[Folio](https://github.com/YRRLYB/Folio)** | 内置 Studio 工作台、可自由编排外观的博客与作品集 | Blog & Portfolio |
-| **[Nexus](https://github.com/YRRLYB/Nexus)** | 面向个人的多设备连接集成平台 | Tooling |
-| **[nonebot-plugin-yrr-fortune](https://github.com/YRRLYB/nonebot-plugin-yrr-fortune)** | NoneBot 每日运势卡片插件，含六维雷达与六套模板 | Bot Plugin |
-| **[Q-gate](https://github.com/YRRLYB/Q-gate)** | 一个简单轻量的答题框架 | Web |
+- [Aria](https://github.com/YRRLYB/Aria) — 简约干净的多源桌面音乐播放器（还有移动版 [Aria-Mobile](https://github.com/YRRLYB/Aria-Mobile)）
+- [YRRLYB-API](https://github.com/YRRLYB/YRRLYB-API) — 公益性质的二次元美少女图库 API（[官网](https://photo.yrrlyb.top/api.html)）
+- [Folio](https://github.com/YRRLYB/Folio) — 内置 Studio 工作台的自定义博客与作品集
+- [Nexus](https://github.com/YRRLYB/Nexus) — 适用于个人的机器连接集成平台
+- [nonebot-plugin-yrr-fortune](https://github.com/YRRLYB/nonebot-plugin-yrr-fortune) — NoneBot 每日运势卡片插件
+- [Q-gate](https://github.com/YRRLYB/Q-gate) — 简单轻量的答题框架
 
 ---
-
-### ⌨️ 技术栈 / Stack
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,react,electron,nodejs,vite,tailwind,nextjs,py,kotlin,git&theme=dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,react,electron,nodejs,vite,tailwind,nextjs,py,kotlin,git&theme=light" />
-    <img height="38" alt="Tech Stack" src="https://skillicons.dev/icons?i=ts,react,electron,nodejs,vite,tailwind,nextjs,py,kotlin,git&theme=dark" />
+    <img height="36" alt="Tech Stack" src="https://skillicons.dev/icons?i=ts,react,electron,nodejs,vite,tailwind,nextjs,py,kotlin,git&theme=dark" />
   </picture>
 </p>
 
----
-
-### 🐍 贡献轨迹 / Activity
+<br />
 
 <p align="center">
   <picture>
